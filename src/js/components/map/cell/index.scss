@@ -1,0 +1,22 @@
+.cell {
+  box-sizing: border-box;
+  padding: 8px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(241, 241, 241);
+
+  &.active{
+    background-image: url('../../../../img/goblin.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80%;
+
+    &.hited {
+      background-image: url('../../../../img/boom.png');
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}

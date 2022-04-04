@@ -1,0 +1,14 @@
+.cursor {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url('../../../img/hammer.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  pointer-events: none;
+  transform: rotate(270deg);
+}
